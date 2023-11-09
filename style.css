@@ -1,0 +1,78 @@
+/* Thiết lập kiểu cho cả trang */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Đảm bảo trang có ít nhất chiều cao bằng chiều cao của màn hình */
+}
+
+/* Thiết lập kiểu cho header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Thiết lập kiểu cho menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #555;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Thiết lập kiểu cho phần nội dung chính */
+main {
+    flex-grow: 1; /* Giãn nội dung chính để lấp đầy phần còn lại của trang */
+    padding: 20px;
+}
+
+/* Thiết lập kiểu cho phần mô tả */
+section {
+    text-align: center; /* Canh giữa theo chiều ngang */
+}
+
+/* Thiết lập kiểu cho danh sách */
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Hiển thị các mục tiêu theo chiều ngang */
+    justify-content: center; /* Canh giữa các mục tiêu theo chiều ngang */
+    flex-wrap: wrap; /* Xếp các mục tiêu xuống dòng mới khi không đủ không gian */
+}
+
+/* Thiết lập kiểu cho mục tiêu */
+ul li {
+    text-align: left;
+    margin: 10px;
+}
+
+/* Thiết lập kiểu cho nút */
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Thiết lập kiểu cho footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
